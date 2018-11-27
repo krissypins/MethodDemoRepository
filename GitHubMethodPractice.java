@@ -22,4 +22,11 @@ public class GitHubMethodPractice{
 		return(arr);
 	}//close combineArr
 
+	public static ArrayList<Integer> printOut(ArrayList<Integer> arr){
+		for(int i = 0; i < arr.size(); i++){
+			System.out.print(arr.get(i) + ", ");
+		}//close printOut
+		return(arr);
+	}//close printOut
+
 }
